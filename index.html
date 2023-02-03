@@ -4,10 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Space+Mono:regular,italic,700,700italic"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface:regular"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>ToDo-APP</title>
   </head>
   <body>
+    <h1>todos</h1>
+    <form id="form">
+      <input
+        type="text"
+        class="input"
+        id="input"
+        placeholder="Enter your ToDo"
+        autocomplete="off"
+      />
+
+      <ul class="todos" id="todos">
+        <li>My First ToDo</li>
+        <li class="completed">My Second ToDo</li>
+      </ul>
+    </form>
+    <small
+      >Left click to toggle completed. <br />
+      Right click to delete todo</small
+    >
     <script src="./JS/script.js"></script>
   </body>
 </html>
